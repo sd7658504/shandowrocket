@@ -3,7 +3,7 @@
 by eHpo1
 
 [Script]
-http-response ^https?:\/\/account\.wps\.cn\/api\/users\/\d+\/overview requires-body=1,max-size=-1,script-path=https://raw.githubusercontent.com/sd7658504/shandowrocket/main/WPS.js
+http-response ^https?:\/\/account\.wps\.cn\/api\/users requires-body=1,max-size=-1,script-path=https://raw.githubusercontent.com/sd7658504/shandowrocket/main/WPS.js
 
 [MITM]
 hostname = account.wps.cn
